@@ -1,0 +1,49 @@
+.container {
+  width: 800px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.nullListContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 50px;
+}
+.listContact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(221, 219, 219);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.listContact p {
+  font-size: 13px;
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.listContactLabel {
+  font-weight: bolder;
+  color: blue;
+}
+.trashIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 10px;
+  justify-self: end;
+}
+.listContainer {
+  max-height: 250px;
+  overflow-y: auto;
+}
